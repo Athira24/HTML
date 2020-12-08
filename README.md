@@ -1,1 +1,204 @@
-# HTML5-
+# HTML5
+# Begginer coding 
+# Play around with the instructions in HTML5 
+# Webpage 
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+<title>Page Title</title>
+</head>
+
+<body style = "background-color: powderblue; text-align:center;">
+<meta charset="UTF-8">
+<h1 style ="background-color: yellow;font-size:60px; border:2px solid Tomato;">Transformers</h1>
+<p><a href="#BB">Jump to Bumblebee</a></p>
+
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111111;
+    }
+</style>
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+</ul>
+<hr>
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+<script>
+    function displayResult() {
+        document.getElementById("myHeader").innerHTML = "Have a nice day!";
+    }
+</script>
+
+
+<style>
+    body {
+       /*background-image: url('https://cdn.collider.com/wp-content/uploads/2017/09/transformers-5-concept-art-slice.jpg');*
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;*/
+    }
+</style>
+
+<p id="home" style= "font-family:Calibri ; font-size: 100%; text-align: left;color: Black ;"> <mark>Transformers</mark> series potraits the physical world with muggots living as kings.
+    Muggots ,also known <strong> Autobots</strong>,are really <i>equipped and trained</i> to fight with the human beings in thevreal world .
+    The temperent of the muggots are idiotic and miffed.The plight of muggots in real world will be ghastly forseen.
+    It always stumbles the <em> scientists and researchers </em>. They vehemently work to find methods to <q>foil the muggots in the physicals world if exists</q>
+</p>
+
+<iframe id ="news" src="https://transformers.hasbro.com/en-us/movies" height="200" width="300" title="Iframe Example"></iframe>
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+</blockquote>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<pre style = " color: Yellow ; ">
+    It's the time to rise and shine
+    No regrets of past
+    No <del> Worries </del> for future
+    Everything on present
+    keep the <q>lit</q> inside you
+    And shine like a moon in the darker sky
+    <em> Hakuna Matata .........!!!!!!!</em>
+</pre>
+<hr>
+<style>
+    /* Style the element with the id "myHeader" */
+    #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+    }
+
+    /* Style all elements with the class name "city" */
+    .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+    }
+</style>
+
+<!-- An element with a unique id -->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Multiple elements with same class -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+
+<h3>Check out this to get more view on  <a href="https://transformers.hasbro.com/en-us/movies" target="_blank"><button>Click Me</button>Autobots</a></h3>
+
+<!--<img src="https://cdn.collider.com/wp-content/uploads/2017/09/transformers-5-concept-art-slice.jpg" alt="transformer.com" style = "float:left; width:500px; height:250px">-->
+<p><cite>The Transformer</cite> by Charlie. in the year 1987.</p>
+<iframe id = "about" width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1 ;playlist=tgbNymZ7vqY&loop=1">
+</iframe>
+<hr>
+<!--This is for themaic break-- comments instructions-->
+<h2 id="BB" style="color:blue"  > BUMBLEBEE</h2>
+
+<img src="https://64.media.tumblr.com/7595efe9be05b49b72ee310b94406d00/tumblr_pkmriaIHAD1s9xw57o3_540.gifv" alt="transformer.com" width="800" height="450">
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<h2>HTML Table</h2>
+
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+    </tr>
+</table>
+
+
+<a href="mailto:athiragopinath24@gmail.com">Send email</a>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+
+<address id="contact">
+
+    Written by Athira G N.<br>
+    Visit us at:<br>
+    Example.com<br>
+    KERALA<br>
+    INDIA
+</address>
+<button onclick="window.print()">Print this page</button>
+</body>
+</html>
